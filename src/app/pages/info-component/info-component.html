@@ -1,0 +1,42 @@
+<coa-header-component></coa-header-component>
+<div class="info-page relative">
+  <div class="left" *ngIf="!loading">
+    <p><strong>{{ 'ADRESS_LABEL' | translate }}</strong><br>
+    <span>
+      <P>{{ 'ADRESS_1' | translate }}</P>
+      <p>{{ 'ADRESS_2' | translate }}</p> 
+      <p>{{ 'ADRESS_3' | translate }}</p>  
+    </span></p>
+
+    <br>
+    <p>{{ email }}</p>
+
+    <br>
+    <p><strong>{{ 'TEAM_LABEL' | translate }}</strong><br>
+    <span *ngFor="let person of team">{{ person }}<br></span></p>
+
+    <br>
+    <p><strong>{{ 'CONTACT_LABEL' | translate }}</strong><br>
+    <span *ngFor="let phone of contacts">{{ phone }}<br></span></p>
+
+    <p class="credits" *ngIf="!loading">
+      {{ 'CREDITS.LINE_1' | translate: { name: credit } }}<br>
+      {{ 'CREDITS.LINE_2' | translate }}<br>
+      {{ 'CREDITS.LINE_3' | translate }}
+    </p>
+  </div>
+
+  <div class="right" *ngIf="!loading">
+    <p>{{ 'TEAM_LABEL' | translate }}</p>
+    <p><strong>{{ 'COALESCER' | translate }}</strong></p>
+    <br>
+    
+    <p>{{ 'DESCRIPTION' | translate }}</p>
+  </div>
+
+  <div class="language-switch">
+    <a (click)="switchLang('pt')" [class.active]="currentLang === 'pt'">{{ language_pt }}</a> 
+    <span>|</span>
+    <a (click)="switchLang('en')" [class.active]="currentLang === 'en'">{{ language_en }}</a>
+  </div>
+</div>
