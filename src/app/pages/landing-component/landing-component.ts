@@ -38,7 +38,7 @@ export class LandingComponent {
   }
   
   goToHome() {
-    this.router.navigate(['/home']);
+    this.router.navigate(['/info']);
   }
 
   private loadLocalTranslation(lang: string) {
