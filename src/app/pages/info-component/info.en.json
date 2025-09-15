@@ -1,0 +1,15 @@
+{
+  "COALESCER": "Coalescer",
+  "DESCRIPTION": "Founded in 2023 by the duo of architects Marta Gouveia and Tonny Marques, united by their architectural practice across different island contexts (the Açores and Madeira). Through imagination, the exploration of memories, the reading of distinct territories, and their individual experiences, they seek inspiration to shape a single body, architecture. This approach has been materialized through the collection of a series of geographical records that support their daily practice. These observations, expressed in drawings, images, collages, and models at different scales, reveal a stance or project attitude that appears coherent and sincere in relation to place. On a broader scale, through academic activities, we've gathered an architecture coursework, both from the University of Évora between 2017 and 2024, including Marta Gouveia’s dissertation “O que pode ser uma ilha” on São Miguel, awarded the Archiprix 2025 prize, and Tonny Marques’ dissertation “Imaginário pitoresco, Câmara de Lobos” on Madeira, which received an honorable mention at the Archiprix 2025, two readings of distinct territories that convey different atmospheres of different places.",
+  "ADRESS_LABEL": "Adress",
+  "ADRESS_1": "Rua Gonçalo Velho nº 6",
+  "ADRESS_2": "9680-156 Vila Franca Do Campo",
+  "ADRESS_3": "Ilha de São Miguel, Açores",
+  "TEAM_LABEL": "Team",
+  "CONTACT_LABEL": "Contact",
+  "CREDITS": {
+    "LINE_1": "Website design and development by {{name}}",
+    "LINE_2": "Images protected by copyright ©COALESCER.",
+    "LINE_3": "All rights belong to their respective authors."
+  }
+}
